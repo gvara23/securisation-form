@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="thanks.php" method="post">
+        <input type="text" name="surname" placeholder="Surname" required><br>
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="email" name="email" placeholder="E-mail" required><br>
+        <input type="text" name="telephone" placeholder="Telephone" required><br>
+        <select name="Subject" required>
+            <option value="">Choose a subject</option>
+            <option value="Support">Support</option>
+            <option value="Sales">Sales</option>
+            <option value="Others">Others</option>
+        </select><br>
+        <textarea name="Message" placeholder="Message" required></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
